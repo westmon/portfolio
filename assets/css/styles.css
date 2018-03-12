@@ -1,0 +1,33 @@
+body {
+    font-family: 'Mina', sans-serif;
+}
+
+.navheader {
+    padding: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.nav-link {
+    color: grey;
+}
+
+body {
+    background-color: black;
+}
+
+.main-image {
+    width: 100%;
+    
+}
+
+.about {
+    padding-top: 15%;
+}
+
+#main-name {
+    color: rgb(148, 144, 144);
+}
+
+.main-text {
+    color: rgb(148, 144, 144);
+}
