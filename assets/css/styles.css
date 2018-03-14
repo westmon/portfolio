@@ -24,10 +24,56 @@ body {
     padding-top: 15%;
 }
 
-#main-name {
+.main-name {
     color: rgb(148, 144, 144);
 }
 
 .main-text {
     color: rgb(148, 144, 144);
+}
+
+.footer {
+    padding: 20px;
+    border-top: 1px solid grey;
+}
+
+.footer-text {
+    text-align: center;
+    color: rgb(148, 144, 144);
+}
+
+.skills {
+    color: rgb(148, 144, 144);
+    padding-left: 20%;
+}
+
+.skills-image {
+    width: 85%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.portfolio-name {
+    padding: 50px;
+    text-align: center;
+    color: rgb(148, 144, 144);
+}
+
+.portfolio-image {
+    width: 80%;
+    text-align: center;
+}
+
+.portfolio-section {
+    padding: 50px;
+    padding-bottom: 50px;
+}
+
+.portfolio-text {
+    padding-top: 50px;
+}
+
+.app-title {
+    padding-left: 18%;
+    padding-bottom: 50px;
 }
