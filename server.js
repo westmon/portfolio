@@ -3,6 +3,7 @@ var app = express();
 var PORT = 8080;
 
 
+app.use(express.static(__dirname + '/assets/'));
 
 app.get("/", function(req, res){
     res.sendFile(__dirname + "/index.html")
