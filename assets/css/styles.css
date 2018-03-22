@@ -77,3 +77,18 @@ body {
     padding-left: 18%;
     padding-bottom: 50px;
 }
+
+.contact {
+    padding-left: 35%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    
+}
+
+.links {
+    color: rgb(148, 144, 144);
+}
+
+a {
+    color: green;
+}
