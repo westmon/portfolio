@@ -76,12 +76,14 @@ body {
 .app-title {
     padding-left: 18%;
     padding-bottom: 50px;
+    font-size: 150%;
 }
 
 .contact {
     padding-left: 35%;
     padding-top: 20%;
     padding-bottom: 20%;
+    color: rgb(148, 144, 144);
     
 }
 
