@@ -13,6 +13,10 @@ app.get("/portfolio", function(req, res) {
 	res.sendFile(__dirname + "/portfolio.html");
 });
 
+app.get("/photography", function(req, res) {
+	res.sendFile(__dirname + "/photography.html");
+});
+
 app.get("/contact", function(req, res) {
 	res.sendFile(__dirname + "/contact.html");
 });

@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <title>Phototgraphy Portfolio</title>
+  </head>
+  <Body id="centered">
+    <div class="container">
+      <div class="row">
+            <div class="col navheader">
+              <ul class="nav nav-justified">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/portfolio">Web Dev Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/photography">Photography Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                  </li>
+                </ul>                
+            </div>
+          </div>
+      <div class="row">
+          <div class="col portfolio-name">
+                <h2>Photography Portfolio</h2>
+          </div>
+      </div>
+      <div class="row">
+
+            <div id="bigimages">
+                <div id="normal1">
+                    <img src="images/FirstHouse.jpg" alt=""/>
+                </div>
+    
+                <div id="normal2">
+                    <img src="images/Theater.jpg" alt=""/>
+                </div>
+    
+                <div id="normal3">
+                    <img src="images/SecondHouse.jpg" alt=""/>
+                </div>
+    
+                <div id="normal4">
+                    <img src="images/Kitchen.jpg" alt=""/>
+                </div>
+    
+                <div id="normal5">
+                    <img src="images/McKayla.jpg" alt=""/>
+                </div>
+                <div id="normal6">
+                        <img src="images/RemovedWires.jpg" alt=""/>
+                    </div>
+                <div id="normal7">
+                        <img src="images/KettleWay.jpg" alt=""/>
+                    </div>
+                <div id="normal8">
+                        <img src="images/Bobbie.jpg" alt=""/>
+                    </div>
+        
+                    <div id="normal9">
+                        <img src="images/Dining.jpg" alt=""/>
+                    </div>
+        
+                    <div id="normal10">
+                        <img src="images/Steele.jpg" alt=""/>
+                    </div>
+                    <div id="normal11">
+                        <img src="images/Bedroom.jpg" alt=""/>
+                    </div>
+                    <div id="normal12">
+                            <img src="images/DiningKitchen.jpg" alt=""/>
+                    </div>
+                
+            </div>
+
+            </div>
+
+        <div class="row thumbnails">
+
+                <div id="photoBody" id="gallery">
+                        <div id="thumbs">
+                            <a href="javascript: changeImage(1);"><img src="images/FirstHouse.jpg" alt="" /></a>
+                            <a href="javascript: changeImage(2);"><img src="images/Theater.jpg" alt="" /></a>
+                            <a href="javascript: changeImage(3);"><img src="images/SecondHouse.jpg" alt="" /></a>
+                            <a href="javascript: changeImage(4);"><img src="images/Kitchen.jpg" alt="" /></a>
+                            <a href="javascript: changeImage(5);"><img src="images/McKayla.jpg" alt="" /></a>
+                            <a href="javascript: changeImage(6);"><img src="images/RemovedWires.jpg" alt="" /></a>
+                            <a href="javascript: changeImage(7);"><img src="images/KettleWay.jpg" alt="" /></a>
+                            <a href="javascript: changeImage(8);"><img src="images/Bobbie.jpg" alt="" /></a>
+                            <a href="javascript: changeImage(9);"><img src="images/Dining.jpg" alt="" /></a>
+                            <a href="javascript: changeImage(10);"><img src="images/Steele.jpg" alt="" /></a>
+                            <a href="javascript: changeImage(11);"><img src="images/Bedroom.jpg" alt="" /></a>
+                            <a href="javascript: changeImage(12);"><img src="images/DiningKitchen.jpg" alt="" /></a>
+                        </div>
+                    </div>
+    
+
+
+
+
+            </div>
+
+            <br><br>
+
+
+
+
+      <div class="row footer">
+        <div class="col">
+            <footer>
+                <div class="footer-text">
+                  Copyright &copy; 2018 West Monnett
+                </div>
+              </footer>
+
+        </div>
+      </div>
+    </div>
+      
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+    function changeImage(current) {
+	var imagesNumber = 12;
+
+	for (i=1; i<=imagesNumber; i++) {
+		if (i == current) {
+			document.getElementById("normal" + current).style.display = "block";
+		} else {
+			document.getElementById("normal" + i).style.display = "none";
+		}
+	}
+}</script>
+
+
+  </body>
+</html>
